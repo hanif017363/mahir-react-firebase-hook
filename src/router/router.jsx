@@ -8,6 +8,7 @@ import PostList from "../pages/PostList";
 import Root from "../pages/Root";
 import UserList from "../pages/UserList";
 import PostDetails from "../pages/PostDetails";
+import Shop from "../pages/Shop";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ export const router = createBrowserRouter([
       { path: "/login", element: <Login /> },
       { path: "/posts", element: <PostList /> },
       { path: "/user", element: <UserList /> },
+      { path: "/shop", element: <Shop /> },
 
       {
         path: "/posts/:postId",

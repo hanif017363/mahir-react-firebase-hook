@@ -37,6 +37,11 @@ function Root() {
             Users
           </Link>
         </li>
+        <li>
+          <Link className="text-red-600" to={"/shop"}>
+            Shops
+          </Link>
+        </li>
       </ul>
 
       <div>
